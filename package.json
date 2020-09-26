@@ -1,0 +1,27 @@
+{
+  "name": "web-bootstrap",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Web bootstrap with front and back unified",
+  "main": "index.js",
+  "scripts": {
+    "install-front": "cd packages/front && npm install",
+    "start-front": "cd packages/front && npm start",
+    "install-back": "cd packages/back && npm install",
+    "start-back": "cd packages/back && npm run start-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/zerf-development/web-bootstrap.git"
+  },
+  "author": "Zerf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/zerf-development/web-bootstrap/issues"
+  },
+  "homepage": "https://gitlab.com/zerf-development/web-bootstrap#readme",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  }
+}

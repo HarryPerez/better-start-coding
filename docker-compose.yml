@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  front:
+    stdin_open: true
+    build:
+      context: "./packages/front"
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+  back:
+    environment:
+      - NODE_ENV=development
+    container_name: back
+    build:
+      context: "./packages/back"
+      dockerfile: Dockerfile
+    ports:
+      ["8080:8080"]
+    links:
+      ["mongo"]
+    entrypoint: [ "npm", "run", "start-dev" ]
+  mongo:
+    environment:
+      - MONGO_USER=scriptTest
+      - MONGO_PASS=1234
+    container_name: mongo
+    image: zerfdev/mongo_1.0
+    entrypoint: ["bash","packages/back/docker_scripts/start.sh"]
+    volumes:
+      - "./packages/back/docker_scripts/start.sh:/docker_scripts/start.sh"
+      - "./packages/back/docker_scripts/mongo_script.js:/docker_scripts/mongo_script.js"
+    ports:
+      ["27017:27017"]

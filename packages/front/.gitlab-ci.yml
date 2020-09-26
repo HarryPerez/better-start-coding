@@ -1,0 +1,13 @@
+image: node:latest
+ 
+cache:
+  paths:
+    - node_modules/
+ 
+lint_and_build:
+  stage: build
+  environment: development
+  script:
+    - npm install
+    - npm run lint
+    - npm run build development

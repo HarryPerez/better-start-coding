@@ -1,0 +1,33 @@
+{
+  "presets": [
+    "@babel/env",
+    "@babel/react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
+        "alias": {
+          "~app": "./src/app",
+          "~assets": "./src/app/assets",
+          "~components": "./src/app/components",
+          "~screens": "./src/app/screens",
+          "~config": "./src/config",
+          "~constants": "./src/constants",
+          "~redux": "./src/redux",
+          "~services": "./src/services",
+          "~utils": "./src/utils",
+          "~propTypes": "./src/propTypes",
+          "~scss": "./src/scss",
+          "~hooks": "./src/hooks"
+        }
+      }
+    ]
+  ]
+}

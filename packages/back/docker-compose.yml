@@ -1,0 +1,24 @@
+version: "3"
+services:
+  app:
+    environment:
+      - NODE_ENV=development
+    container_name: back
+    build: .
+    ports:
+      ["8080:8080"]
+    links:
+      ["mongo"]
+    entrypoint: [ "npm", "run", "start-dev" ]
+  mongo:
+    environment:
+      - MONGO_USER=scriptTest
+      - MONGO_PASS=1234
+    container_name: mongo
+    image: mongo
+    entrypoint: ["bash","/docker_scripts/start.sh"]
+    volumes:
+      - "./docker_scripts/start.sh:/docker_scripts/start.sh"
+      - "./docker_scripts/mongo_script.js:/docker_scripts/mongo_script.js"
+    ports:
+      ["27017:27017"]

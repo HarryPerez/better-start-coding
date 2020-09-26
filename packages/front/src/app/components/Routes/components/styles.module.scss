@@ -1,0 +1,20 @@
+@import 'src/scss/variables/variables';
+
+.container-site {
+  transition: all $transition-duration $transition-function;
+  width: 100%;
+
+  &.activeProfileMenu {
+    background-color: $white;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+  }
+}
+
+.main-content {
+  height: 100%;
+  padding-top: 70px;
+}
