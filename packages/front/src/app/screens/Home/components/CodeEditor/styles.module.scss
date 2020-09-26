@@ -1,0 +1,23 @@
+@import 'variables/colors';
+
+.code-editor-container {
+  background: $aqua-haze;
+}
+
+.editor-container {
+  background: $aqua-haze;
+  border-radius: 3px;
+  height: 250px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.editor-button {
+  background: $aqua-haze;
+  border-radius: 3px;
+  height: 50px;
+  &:hover{
+    border: 1px solid $aqua-haze;
+    background: $white;
+  }
+}

@@ -109,7 +109,7 @@ module.exports = {
     "no-empty-function": "error",
     "no-empty-pattern": "error",
     "no-eq-null": "error",
-    "no-eval": "error",
+    "no-eval": "off",
     "no-extend-native": "error",
     "no-extra-bind": "error",
     "no-fallthrough": "error",
