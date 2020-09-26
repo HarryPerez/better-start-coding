@@ -21,7 +21,7 @@ function CodeEditor({ conditions }) {
         autoDismiss: true
       });
     } else {
-      addToast(i18next.t('CodeEditor:success'), {
+      addToast(`${i18next.t('CodeEditor:success')} ${result || ''}`, {
         appearance: CODE_STATUS.SUCCESS,
         autoDismiss: true
       });

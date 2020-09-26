@@ -8,8 +8,9 @@ export const getCodeFromEditor = value => {
 };
 
 export const getCodeExecution = code => {
+  let result = '';
   try {
-    eval(code);
+    result = eval(code);
   } catch (e) {
     return {
       result: e.message,
@@ -17,6 +18,7 @@ export const getCodeExecution = code => {
     };
   }
   return {
+    result,
     status: CODE_STATUS.SUCCESS
   };
 };
