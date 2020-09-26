@@ -320,7 +320,7 @@ module.exports = {
     "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
     "react/forbid-dom-props": ["error", { forbid: ["style"] }],
-    "react/forbid-prop-types": "error",
+    "react/forbid-prop-types": "off",
     "react/jsx-boolean-value": ["error", "never"],
     "react/jsx-child-element-spacing": "error",
     "react/jsx-curly-brace-presence": [

@@ -29,3 +29,80 @@
 .line-through {
   text-decoration: line-through;
 }
+
+// Common text styles
+
+.title-large {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.text-base {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.title-medium {
+  font-size: 19px;
+  line-height: 20px;
+}
+
+.subtitle-small {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.subtitle-medium {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.light-text {
+  font-size: 12px;
+}
+
+.text-light {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.small-text {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.xsmall-text {
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.tiny-text {
+  font-size: 9px;
+}
+
+.big-text {
+  font-size: 21px;
+}
+
+// Color texts
+
+.text-alabaster {
+  color: $alabaster;
+}
+
+.text-aqua-haze {
+  color: $aqua-haze;
+}
+
+.text-mid-gray {
+  color: $mid-gray;
+}
+
+.text-tundora {
+  color: $tundora;
+}
