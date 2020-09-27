@@ -8,11 +8,11 @@ import store from '~redux/store';
 import Routes from './components/Routes';
 
 const App = () => (
-  <ToastProvider>
-    <Provider store={store}>
+  <Provider store={store}>
+    <ToastProvider>
       <Routes />
-    </Provider>
-  </ToastProvider>
+    </ToastProvider>
+  </Provider>
 );
 
 export default hot(App);
