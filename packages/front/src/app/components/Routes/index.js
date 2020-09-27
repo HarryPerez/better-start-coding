@@ -9,7 +9,7 @@ import styles from './styles.module.scss';
 
 const AppRoutesContainer = () => (
   <ConnectedRouter history={history}>
-    <div className={`column center middle ${styles.container}`}>
+    <div className={`column ${styles.container}`}>
       <Suspense>
         <Route path="/" component={Home} />
       </Suspense>
