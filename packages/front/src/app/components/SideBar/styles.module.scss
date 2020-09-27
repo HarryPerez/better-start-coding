@@ -2,7 +2,7 @@
 
 .side-bar-container {
   background: $cornflower-blue;
-  height: 100vh;
+  height: calc(100vh - 70px);
   padding-top: 60px;
   min-width: 259px;
 }

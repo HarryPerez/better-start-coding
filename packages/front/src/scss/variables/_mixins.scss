@@ -1,0 +1,68 @@
+@import './variables';
+
+@mixin extra-small {
+  @media (max-width: #{$extra-small-device}) {
+    @content;
+  }
+}
+
+@mixin extra-small-medium {
+  @media (max-width: #{$extra-small-device-medium}) {
+    @content;
+  }
+}
+
+
+@mixin extra-small-plus {
+  @media (max-width: #{$extra-small-device-plus}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media (max-width: #{$small-device}) {
+    @content;
+  }
+}
+
+@mixin small-landscape {
+  @media (max-width: #{$small-device-landscape}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: #{$medium-device}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$desktop-device}) {
+    @content;
+  }
+}
+
+@mixin desktop-landscape {
+  @media (max-width: #{$desktop-device-landscape}) {
+    @content;
+  }
+}
+
+@mixin desktop-big {
+  @media (max-width: #{$breakpoint-desktop-big}) {
+    @content;
+  }
+}
+
+@mixin rwd($screen) {
+  @media (min-width: $screen+'px') {
+    @content;
+  }
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

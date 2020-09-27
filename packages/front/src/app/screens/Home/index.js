@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import i18next from 'i18next';
-
-import SideBar from '~components/SideBar';
 
 import CodeEditor from './components/CodeEditor';
 import ExerciseDescription from './components/ExerciseDescription';
@@ -13,9 +10,7 @@ function Home() {
   const { description, exercise, title } = FUNDAMENTALS_TOPICS_EXERCISES[topic];
   return (
     <div className="row full-width">
-      <SideBar />
       <div className="column middle center full-width">
-        <span className="text-uppercase text-mid-gray m-bottom-2">{i18next.t('Home:title')}</span>
         <div className={styles.homeContainer}>
           <ExerciseDescription
             className="m-bottom-4"

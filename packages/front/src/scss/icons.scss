@@ -1,0 +1,517 @@
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./icons-fonts/icomoon.eot?42s29i');
+  src: url('./icons-fonts/icomoon.eot?42s29i#iefix') format('embedded-opentype'),
+  url('./icons-fonts/icomoon.ttf?42s29i') format('truetype'),
+  url('./icons-fonts/icomoon.woff?42s29i') format('woff'),
+  url('./icons-fonts/icomoon.svg?42s29i#icomoon') format('svg');
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+  text-transform: none;
+
+  &::before {
+    color: inherit;
+  }
+}
+
+.icon-menu-dots:before {
+  content: '\e900';
+}
+
+.icon-tower:before {
+  content: '\e901';
+}
+
+.icon-heart-full:before {
+  content: '\e902';
+}
+
+.icon-home:before {
+  content: '\e903';
+}
+
+.icon-veggie-color:before {
+  content: '\e904';
+}
+
+.icon-nuevo:before {
+  content: '\e905';
+}
+
+.icon-promo:before {
+  content: '\e906';
+}
+
+.icon-store-full:before {
+  content: '\e907';
+}
+
+.icon-mail1:before {
+  content: '\e908';
+}
+
+.icon-person2:before {
+  content: '\e909';
+}
+
+.icon-spicy-color:before {
+  content: '\e90a';
+}
+
+.icon-person:before {
+  content: '\e90b';
+}
+
+.icon-stars-full:before {
+  content: '\e90c';
+}
+
+.icon-pizza:before {
+  content: '\e90d';
+}
+
+.icon-deal:before {
+  content: '\e90e';
+}
+
+.icon-soda:before {
+  content: '\e90f';
+}
+
+.icon-sticks:before {
+  content: '\e910';
+}
+
+.icon-extra:before {
+  content: '\e911';
+}
+
+.icon-order-full:before {
+  content: '\e912';
+}
+
+.icon-menu-full:before {
+  content: '\e913';
+}
+
+.icon-desert:before {
+  content: '\e914';
+}
+
+.icon-shop:before {
+  content: '\e915';
+}
+
+.icon-menu:before {
+  content: '\e916';
+}
+
+.icon-stars:before {
+  content: '\e917';
+}
+
+.icon-order:before {
+  content: '\e918';
+}
+
+.icon-user:before {
+  content: '\e919';
+}
+
+.icon-delivery:before {
+  content: '\e91a';
+}
+
+.icon-add-circle:before {
+  content: '\e91b';
+}
+
+.icon-add:before {
+  content: '\e91c';
+}
+
+.icon-angle-down:before {
+  content: '\e91d';
+}
+
+.icon-arrow-left:before {
+  content: '\e91e';
+}
+
+.icon-arrow-right:before {
+  content: '\e91f';
+}
+
+.icon-cart:before {
+  content: '\e920';
+}
+
+.icon-clean-full:before {
+  content: '\e921';
+}
+
+.icon-dropdown:before {
+  content: '\e922';
+}
+
+.icon-delivery-full:before {
+  content: '\e923';
+}
+
+.icon-dpto:before {
+  content: '\e924';
+}
+
+.icon-facebook:before {
+  content: '\e925';
+}
+
+.icon-google:before {
+  content: '\e926';
+}
+
+.icon-phone1:before {
+  content: '\e927';
+}
+
+.icon-instagram1:before {
+  content: '\e928';
+}
+
+.icon-local-full:before {
+  content: '\e929';
+}
+
+.icon-location:before {
+  content: '\e92a';
+}
+
+.icon-mail:before {
+  content: '\e92b';
+}
+
+.icon-map:before {
+  content: '\e92c';
+}
+
+.icon-note:before {
+  content: '\e92d';
+}
+
+.icon-pass-off:before {
+  content: '\e92e';
+}
+
+.icon-pass-on:before {
+  content: '\e92f';
+}
+
+.icon-password:before {
+  content: '\e930';
+}
+
+.icon-phone:before {
+  content: '\e931';
+}
+
+.icon-off:before {
+  content: '\e932';
+}
+
+.icon-remove-circle:before {
+  content: '\e933';
+}
+
+.icon-time:before {
+  content: '\e934';
+}
+
+.icon-twitter:before {
+  content: '\e935';
+}
+
+.icon-payment-cash:before {
+  content: '\e936';
+}
+
+.icon-payment-debit-card:before {
+  content: '\e937';
+}
+
+.icon-check:before {
+  content: '\e938';
+}
+
+.icon-cooking:before {
+  content: '\e939';
+}
+
+.icon-make-pizza:before {
+  content: '\e93a';
+}
+
+.icon-oven:before {
+  content: '\e93b';
+}
+
+.icon-pickup:before {
+  content: '\e93c';
+}
+
+.icon-pizza-by-halves:before {
+  content: '\e93d';
+}
+
+.icon-logout:before {
+  content: '\e93e';
+}
+
+.icon-star:before {
+  content: '\e93f';
+}
+
+.icon-cookie:before {
+  content: '\e940';
+}
+
+.icon-cake:before {
+  content: '\e941';
+}
+
+.icon-onepay:before {
+  content: '\e942';
+}
+
+.icon-edit:before {
+  content: '\e943';
+}
+
+.icon-time-full:before {
+  content: '\e944';
+}
+
+.icon-check-simple:before {
+  content: '\e945';
+}
+
+.icon-trash:before {
+  content: '\e946';
+}
+
+.icon-error:before {
+  content: '\e947';
+}
+
+.icon-heart:before {
+  content: '\e948';
+}
+
+.icon-order-progress:before {
+  content: '\e949';
+}
+
+.icon-store-close:before {
+  content: '\e94a';
+}
+
+.icon-attach:before {
+  content: '\e94b';
+}
+
+.icon-image:before {
+  content: '\e94c';
+}
+
+.icon-question:before {
+  content: '\e94d';
+}
+
+.icon-posnet:before {
+  content: '\e94e';
+}
+
+.icon-search:before {
+  content: '\e94f';
+}
+
+.icon-hamburguer:before {
+  content: '\e950';
+}
+
+.icon-facebook-full:before {
+  content: '\e951';
+}
+
+.icon-facebook-line:before {
+  content: '\e952';
+}
+
+.icon-instagram-full:before {
+  content: '\e953';
+}
+
+.icon-instagram-line:before {
+  content: '\e954';
+}
+
+.icon-twitter-full:before {
+  content: '\e955';
+}
+
+.icon-twitter-line:before {
+  content: '\e956';
+}
+
+.icon-close-thick:before {
+  content: '\e957';
+}
+
+.icon-close:before {
+  content: '\e958';
+}
+
+.icon-pay-online:before {
+  content: '\e959';
+}
+
+.icon-info:before {
+  content: '\e95a';
+}
+
+.icon-person1:before {
+  content: '\e95b';
+}
+
+.icon-spicy:before {
+  content: '\e95c';
+}
+
+.icon-veggie:before {
+  content: '\e95d';
+}
+
+.icon-switch-off:before {
+  content: '\e95e';
+}
+
+.icon-switch-on:before {
+  content: '\e95f';
+}
+
+.icon-save:before {
+  content: '\e960';
+}
+
+.icon-build:before {
+  content: '\e961';
+}
+
+.icon-cc-amex:before {
+  content: '\e962';
+}
+
+.icon-cc-discovery:before {
+  content: '\e963';
+}
+
+.icon-cc-mastercard:before {
+  content: '\e964';
+}
+
+.icon-cc-visa:before {
+  content: '\e965';
+}
+
+.icon-copy:before {
+  content: '\e966';
+}
+
+.icon-whatsapp:before {
+  content: '\e967';
+}
+
+.icon-descount:before {
+  content: '\e968';
+}
+
+.icon-piece:before {
+  content: '\e969';
+}
+
+.icon-calendar:before {
+  content: '\e96a';
+}
+
+.icon-flash:before {
+  content: '\e96b';
+}
+
+.icon-check-off:before {
+  content: '\e96c';
+}
+
+.icon-check-on:before {
+  content: '\e96d';
+}
+
+.icon-angle-up:before {
+  content: '\e96e';
+}
+
+.icon-carrito-bolso:before {
+  content: '\e96f';
+}
+
+.icon-store-open:before {
+  content: '\e970';
+}
+
+.icon-car:before {
+  content: '\e971';
+}
+
+.icon-car_rounded:before {
+  content: '\e972';
+}
+
+.icon-youtube:before {
+  content: '\e973';
+}
+
+.icon-instagram:before {
+  content: '\e974';
+}
+
+.icon-clock:before {
+  content: '\e975';
+}
+
+.icon-pin:before {
+  content: '\e976';
+}
+
+.icon-ic_delivery:before {
+  content: '\e977';
+}
+
+.icon-phone-full:before {
+  content: '\e978';
+}
+
+.icon-logout1:before {
+  content: '\e979';
+}
